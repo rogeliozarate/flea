@@ -6,6 +6,7 @@ require 'sinatra/reloader' if development?
 require 'haml'
 require 'sass'
 
+set :haml, :format => :html5
 
 quotes = ["Actualiza tus datos en el IFE",
           "Averigua quién es tu diputado y cómo contactarlo",
@@ -23,7 +24,6 @@ quotes = ["Actualiza tus datos en el IFE",
           ]
 
 get '/' do
-  "Hola"
-  "#{quotes[Random.rand(quotes.size-1)]}"
+  haml :index
 end
   
