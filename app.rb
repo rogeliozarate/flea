@@ -5,8 +5,10 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 require 'haml'
 require 'sass'
+require 'sinatra/flash'
 
 set :haml, :format => :html5
+
 
 quotes = ["Actualizar tus datos en el IFE",
           "Averiguar quién es tu diputado y cómo contactarlo",
@@ -30,12 +32,12 @@ quotes = ["Actualizar tus datos en el IFE",
           "Ser cortes al conducir",
           "Apagar la televisión un rato y leer",
           "Cuidar tu salud",
-          "No ser indifeentes ante la violencia"
+          "No ser indiferente ante la violencia",
+          "Formar parte de la Sociedad de Alumnos de tu escuela"
          ]
 
 get '/' do
   @quote =  quotes[Random.rand(quotes.size-1)]
-  @quote
   haml :index
 end
 
