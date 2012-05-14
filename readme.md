@@ -10,13 +10,10 @@ http://whatthefuckshouldimakefordinner.com
 
 ## ToDo
 
-- remote git to github
-- About page
+- imprive about page and readme.md
 - 404
 - Licensing
 - More phrases
-- How to create routes in runtime?
-- deploy in the wild
 - invite my friends
 - quote suggestion
 - share in FB, Twiter , g+ or via e-mail
