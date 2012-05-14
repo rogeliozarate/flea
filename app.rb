@@ -20,10 +20,11 @@ quotes = ["Actualizar tus datos en el IFE",
           "Denunciar a los delicuentes",
           "Seguir a tus representantes en las redes sociales",
           "Meditar tu voto",
-          "Discutir con tus amistades lo que deberia hacr un buen gobierno",
-          "Apoyar a los equipos eportivos representativos de tu ciudad y estado",
+          "Discutir con tus amistades lo que deberia hacer un buen gobierno",
+          "Apoyar a los equipos deportivos representativos de tu ciudad y estado",
           "Adoptar un arbol",
           "Mantener limpia tu acera",
+          "Formar parte de la Asociación de padres de familia de la escuela de tus hijos"
          ]
 
 get '/' do
@@ -31,4 +32,9 @@ get '/' do
   @quote
   haml :index
 end
-  
+
+
+get '/stylesheets/global.css' do
+  content_type 'text/css', :charset => 'utf-8'
+  sass :global
+end
