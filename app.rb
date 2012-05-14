@@ -15,13 +15,16 @@ quotes = ["Actualizar tus datos en el IFE",
           "Conocer el reglamento de Policia y Transito de tu ciudad",
           "Participar en los observatorio coudadanos",
           "Integrarte al comite de colonos de donde vives",
-          "VOTE AT YOUR LOCAL FUCKING ELECTIONS",
-          "SHOW UP AT YOUR BORING ASS CITY HALL MEETINGS",
-          "YOU SEE THAT FUCKING POTHOLE? REPORT THAT SHIT TO 311 ALREADY!",
-          "FUCKING REGISTER TO VOTE ALREADY!",
-          "SIGN UP TO FOLLOW YOUR CITY ON TWITTER ALREADY!",
-          "GET A FUCKING LIBRARY CARD!"
-          ]
+          "Votar y seguir el desempeño de quien fue favorecido con tu voto",
+          "Asistir a las Juntas de Cabildo en tu municipio",
+          "Denunciar a los delicuentes",
+          "Seguir a tus representantes en las redes sociales",
+          "Meditar tu voto",
+          "Discutir con tus amistades lo que deberia hacr un buen gobierno",
+          "Apoyar a los equipos eportivos representativos de tu ciudad y estado",
+          "Adoptar un arbol",
+          "Mantener limpia tu acera",
+         ]
 
 get '/' do
   @quote =  quotes[Random.rand(quotes.size-1)]
