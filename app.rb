@@ -5,7 +5,6 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 require 'haml'
 require 'sass'
-require 'sinatra/flash'
 
 set :haml, :format => :html5
 
