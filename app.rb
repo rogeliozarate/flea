@@ -24,7 +24,13 @@ quotes = ["Actualizar tus datos en el IFE",
           "Apoyar a los equipos deportivos representativos de tu ciudad y estado",
           "Adoptar un arbol",
           "Mantener limpia tu acera",
-          "Formar parte de la Asociación de padres de familia de la escuela de tus hijos"
+          "Formar parte de la Asociación de padres de familia de la escuela de tus hijos",
+          "Registrarte como donante de organos",
+          "Cederle el paso a los peatones",
+          "Ser cortes al conducir",
+          "Apagar la televisión un rato y leer",
+          "Cuidar tu salud",
+          "No ser indifeentes ante la violencia"
          ]
 
 get '/' do
