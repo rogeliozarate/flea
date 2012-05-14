@@ -5,11 +5,12 @@ An independent guide for a good citizen
 ## Inspired by
 http://codeforamerica.github.com/jfdicitizen/
 
-## and inspired by:
+## and by:
 http://whatthefuckshouldimakefordinner.com
 
 ## ToDo
 
+- remote git to github
 - About page
 - 404
 - Licensing
@@ -20,3 +21,8 @@ http://whatthefuckshouldimakefordinner.com
 - quote suggestion
 - share in FB, Twiter , g+ or via e-mail
 - favicon
+- google analytics
+- another analytics
+- how to track clicks. if any
+- create a twitter account
+
