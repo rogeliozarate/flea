@@ -14,7 +14,7 @@ quotes = ["... actualizar tus datos en el IFE",
           "... escribirle a los candidatos sobre tus inquietudes",
           "... leer la Constitución",
           "... conocer el reglamento de Policia y Transito de tu ciudad",
-          "... participar en los observatorio coudadanos",
+          "... participar en los observatorio ciudadanos",
           "... integrarte al comite de colonos de donde vives",
           "... votar y seguir el desempeño de quien fue favorecido con tu voto",
           "... asistir a las Juntas de Cabildo en tu municipio",
@@ -37,7 +37,8 @@ quotes = ["... actualizar tus datos en el IFE",
           "... utiliza el transporte público",
           "... participa como voluntario en alguna asociación civil",
           "... participa como obsevador ciudadano en elecciones",
-          "... participa como funcionario de casilla si eres requerido"
+          "... participa como funcionario de casilla si eres requerido",
+          "... no dar mordidas"
          ]
 
 get '/' do
