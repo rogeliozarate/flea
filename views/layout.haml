@@ -22,11 +22,11 @@
 
     %link{:rel => "shortcut icon", :href => "images/favicon.ico", :type => "image/x-icon"}
     %link{:rel => 'stylesheet', :href => '/stylesheets/global.css', :type => 'text/css', :media => 'all'}
-    
+    = haml :scripts, :layout => false
 	
   %body    
     .warning Esta es una vista preliminar. This is a preview.
     = yield  
-    = haml :scripts, :layout => false
+    
     	
     
