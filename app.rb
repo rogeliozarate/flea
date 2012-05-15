@@ -38,7 +38,9 @@ quotes = ["... actualizar tus datos en el IFE",
           "... participa como voluntario en alguna asociación civil",
           "... participa como obsevador ciudadano en elecciones",
           "... participa como funcionario de casilla si eres requerido",
-          "... no dar mordidas"
+          "... no dar mordidas",
+          "... recoger las heces de tu perro y llevar al dia sus vacunas",
+          "... depositar la basura en el lugar y horario adecuados"
          ]
 
 get '/' do
